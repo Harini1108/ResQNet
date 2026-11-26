@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ADK session data
+.adk/
+**/.adk/
+
+# System files
+.DS_Store
+Thumbs.db
